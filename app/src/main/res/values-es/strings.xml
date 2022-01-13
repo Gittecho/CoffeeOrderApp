@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="subject">hagamos el pedido</string>
+    <string name="lesser">no menos de 1</string>
+    <string name="greater">no más de 100</string>
+    <string name="total">Totalmente me debes $ <xliff:g id="c" example="2">%d</xliff:g></string>
+    <string name="names">nombre : <xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <string name="addchoco">Agrega chocolate : <xliff:g id="addChocolate" example="true">%b</xliff:g></string>
+    <string name="name">Nombre</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="toppings">Aderezos</string>
+    <string name="whipped_cream">crema batida</string>
+    <string name="order_summary">resumen del pedido</string>
+    <string name="order">pedido</string>
+    <string name="price">precio</string>
+    <string name="amount">Cantidad</string>
+    <string name="addwhip">\n\nAgregar crema batida</string>
+    <string name="thanks">\n\nGracias</string>
+    <string name="quantity">\n\ncantidad</string>
+</resources>

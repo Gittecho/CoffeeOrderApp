@@ -1,0 +1,27 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="false">just java</string>
+    <string name="quantity">quantity</string>
+    <string name="number" translatable="false">0</string>
+    <string name="order">order</string>
+    <string name="price">price</string>
+    <string name="pricing" translatable="false">$0</string>
+    <string name="increment" translatable="false">+</string>
+    <string name="decrement" translatable="false">-</string>
+    <string name="order_summary">order summary</string>
+    <string name="whipped_cream">whipped cream</string>
+    <string name="toppings">Toppings</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="name">Name</string>
+
+    <string name="thanks">"\n\n Thank You"</string>
+    <string name="amount">"\n\n Quantity :<xliff:g id="a" example="2">%d</xliff:g>"</string>
+    <string name="addwhip">"\n\n Add Whipped cream : <xliff:g id="tof" example="true">%b</xliff:g>"</string>
+    <string name="addchoco">"\n\n Add chocolate : <xliff:g id="addChocolate" example="true">%b</xliff:g>"</string>
+    <string name="total">"\n\n Totally U owe me : $<xliff:g id="c" example="2">%d</xliff:g>"</string>
+    <string name="subject">lets make order</string>
+    <string name="lesser">not less than 1</string>
+    <string name="greater">not more than 100</string>
+    <string name="names">Name : <xliff:g id="name" example="Amy">%s</xliff:g></string>
+
+
+</resources>

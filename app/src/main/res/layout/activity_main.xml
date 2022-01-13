@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/text_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:inputType="textCapWords"/>
+
+
+        <TextView
+            style="@style/headerfile"
+            android:text="@string/toppings" />
+
+        <CheckBox
+            android:id="@+id/itemClicke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="14dp"
+            android:paddingLeft="14dp"
+            android:text="@string/whipped_cream"
+            android:textSize="16sp" />
+        <CheckBox
+            android:id="@+id/chocolate_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/chocolate"
+            android:textSize="16sp"
+            android:paddingStart="24dp" />
+
+        <TextView
+            style="@style/headerfile"
+            android:id="@+id/quantity"
+            android:text="@string/quantity" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:onClick="decrement"
+                android:textSize="16sp"
+                android:text="@string/decrement"
+                tools:ignore="UsingOnClickInXml" />
+
+            <TextView
+                android:id="@+id/numbers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/number"
+                android:textColor="#9E9E9E"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:onClick="increment"
+                android:textSize="16sp"
+                android:text="@string/increment"
+                tools:ignore="UsingOnClickInXml" />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/botton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:onClick="SubmitOrder"
+            android:text="@string/order"
+            tools:ignore="UsingOnClickInXml" />
+
+
+    </LinearLayout>
+</ScrollView>
