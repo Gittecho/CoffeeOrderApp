@@ -37,6 +37,11 @@ To run CoffeeOrderApp, you need:
 6. The app will seamlessly transition to your device's email application, with the order details automatically filled in.
 7. Review the order details and send the email to the designated coffee shop for processing.
 
+## Screenshots
+![Screenshot 1](Resources/CoffeeOrderApp(White).png)
+  
+![Screenshot 2](Resources/CoffeeOrderApp(Dark).png)
+
 ## Releases
 - v1.0.0: Initial release with basic functionality.
 
